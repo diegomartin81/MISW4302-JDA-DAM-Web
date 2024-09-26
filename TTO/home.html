@@ -54,8 +54,11 @@
                             <div style="flex: 1 1 0; flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 32px; display: inline-flex">
                                 <div style="align-self: stretch; height: 122px; flex-direction: column; justify-content: flex-start; align-items: center; gap: 32px; display: flex">
                                     <div style="align-self: stretch; height: 122px; flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 16px; display: flex">
-                                        <div class="common-style menu-home" style="align-self: stretch; text-align: center; cursor: pointer" onclick="location.href='pago.html'">Configurar Medio de Pago</div>
-                                        <div class="common-style texto-home" style="align-self: stretch; text-align: center; cursor: pointer" onclick="location.href='pago.html'">Configura tu medio de pago de manera rápida y segura</div>
+                                        <div class="common-style menu-home" style="align-self: stretch; text-align: center; cursor: pointer" onmouseover="document.getElementById('mensaje-prueba').style.display = 'block';" onmouseout="document.getElementById('mensaje-prueba').style.display = 'none';" onclick="location.href='pago.html'">Configurar Medio de Pago</div>
+                                        <div class="common-style texto-home" style="align-self: stretch; text-align: center; cursor: pointer" onmouseover="document.getElementById('mensaje-prueba').style.display = 'block';" onmouseout="document.getElementById('mensaje-prueba').style.display = 'none';" onclick="location.href='pago.html'">Configura tu medio de pago de manera rápida y segura</div>
+                                    </div>
+                                    <div class="common-style texto-home" id="mensaje-prueba" style="display: none; position: absolute; top: 500; left: 500; right: 0; height: 10%; width: 30%; background-color: white; text-align: center; padding-top: 20px; z-index: 1; font-size: 12px; font-weight: bold;">
+                                        El servicio premium incluye activación de motor de inteligencia artificial que permite programar automáticamente los tiempos de descanso en función de los reportes históricos del usuario y de otros usuarios registrados en la aplicación con dinámicas de entrenamientos similares. El valor del servicio mensual de USD 1 y este valor se cargará al medio de pago configurado en la aplicación web desde el momento de su aceptación.
                                     </div>
                                 </div>
                             </div>
