@@ -1,6 +1,5 @@
 ## Aplicación TTO
 
-
 # Integrantes:
 
 Juan David Ardila: jd.ardila12@uniandes.edu.co
